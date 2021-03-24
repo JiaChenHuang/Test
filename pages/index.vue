@@ -26,7 +26,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  validate({params,query}) {
+    // 参数有效性校验
+    console.log('validate：',params,query);
+    return true;  // 校验成功后返回
+  }
+}
 </script>
 
 <style>

@@ -3,7 +3,14 @@
     <Nuxt />
   </div>
 </template>
-
+<script>
+export default {
+  // middleware: 'auth',  // 页面级的中间件
+  middleware() {
+    console.log('middleware layout页面中运行的中间件');
+  }
+}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
