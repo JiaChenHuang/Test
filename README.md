@@ -18,3 +18,4 @@
 <h2>18、git rm -r --cached .   git清除本地缓存、Git忽略规则(.gitignore配置）不生效原因和解决<br /></h2>
 <h2>19、git config --global http.sslVerify "false"  解除ssl验证</h2>
 <h2>20、git reset --hard e493a30  git回滚到指定版本</h2>
+<h2>21、git commit -m "提交日志" --no-verify  强制提交</h2>
